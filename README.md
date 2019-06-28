@@ -8,6 +8,10 @@ Early stages work in progress.
 
 - **Competing phase generator:** Read in a list of pymatgen structures and find likely decomposition products. These can then be exported as a reduced set of structures necessary to calculate to get reliable E_hull values for the original set of structures.
 
+- **Get all structure IDs:** Use the MP API to make a query and save a list of MPIDs for future use. 
+
+- **VASP input generator:** Use pymatgen to generate sets of VASP input files for a list of structures. 
+
 ## Materials Project API
 Much of the code relies on programmatic access to the Materials Project. It is recommended to add this as an environemnt variable, e.g. in your `~/.bash_profile`/`~/.bashrc`: `export MP_API_KEY=xxxxxxxxxxxxxx`. In doing so, the scripts should work as-is.  
 
