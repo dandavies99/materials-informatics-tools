@@ -48,3 +48,5 @@ nosetests.xml
 
 # Docs builds
 docs/_build/
+
+*example_calcs/
