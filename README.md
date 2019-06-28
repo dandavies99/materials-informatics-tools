@@ -4,7 +4,7 @@ A collection of tools for high-throughput materials screening and informatics.
 Early stages work in progress.
 
 ## Examples
- - **Structure redictor:** Generate a list of suggested structures for a given set of species using Pymatgen. Includes example of generating a pool of parent structures, as well as using multiprocessing to predict structures for many sets of species.
+ - **Structure predictor:** Generate a list of suggested structures for a given set of species using Pymatgen. Includes example of generating a pool of parent structures, as well as using multiprocessing to predict structures for many sets of species.
 
 - **Competing phase generator:** Read in a list of pymatgen structures and find likely decomposition products. These can then be exported as a reduced set of structures necessary to calculate to get reliable E_hull values for the original set of structures.
 
